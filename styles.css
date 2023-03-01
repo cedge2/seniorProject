@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------- BEGIN CUSTOM STYLES ---------- */
+html {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+body {
+  width: 1280px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+header,
+main,
+footer {
+  width: 1276px;
+  margin: auto;
+  padding: 20px 2px 20px 2px;
+}
+
+/*Nav styling*/
+h2 {
+  display: none;
+}
+
+nav ul {
+
+  margin: auto;
+  padding: 50px 50px 50px 50px;
+  background: #006699;
+  border-style: none solid solid none;
+  border-color: rgba(177, 226, 150, 0.3);
+}
+
+nav ul a,
+#top {
+  color: white;
+  padding: 20px;
+  width: 150px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav li {
+  display: inline-flex;
+  padding: 0px 10px 0px 10px;
+}
+
+/*Responsive color change added to all buttons and nav links*/
+nav ul a:hover,
+#top:hover,
+#lightMode:hover,
+[href="#top"]:hover,
+.servicesNav ul a:hover,
+#cart button:hover,
+.item button:hover,
+#submitContact:hover {
+ color: #00aaff;
+}
+
+ul {
+  padding-left: 1rem;
+  list-style-type: disc;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+
+nav li {
+  list-style-type: none;
+}
+
+h3 {
+  font-size: 1.35rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: black;
+  margin: auto;
+  text-align: center;
+  width: 1276px;
+  margin: .5em;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: black;
+  text-weight: bold;
+  margin: auto;
+  text-align: center;
+  width: 1276px;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  padding: 1em;
+}
+
+#mockups img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+/*Styling form*/
+
+
+form {
+   padding: 15px;
+   width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form h1 {
+   margin-top: 5px;
+}
+
+
+input[type=text], input[type=email], input[type=password]{
+   width: 400px;
+   padding: 8px;
+   margin-top: 4px;
+   margin-bottom: 12px;
+   border: 1px solid #aaa;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+   background-color: #006699;
+}
+
+input[type=submit] {
+   width: 100%;
+   color: white;
+   background-color: #09f;
+   padding: 15px;
+   margin-top: 10px;
+   border-radius: 4px;
+}
+
+
+
